@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* alinhamento */
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item > div {
+  flex: 1 0 auto;
+}
+.item > div {
+  flex: 1 0 auto;
+  width: 300px;
+}
+.item {
+  letter-spacing: 4px; /* Espaçamento entre caracteres */
+}
+
